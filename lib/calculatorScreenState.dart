@@ -28,7 +28,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
     }
 
     setState(() {
-      _resultColor = Colors.black; // Возвращаем черный цвет
+      _resultColor = Colors.black;
       
       if (operation == '+') _resultText = 'Результат: ${n1 + n2}';
       if (operation == '-') _resultText = 'Результат: ${n1 - n2}';
