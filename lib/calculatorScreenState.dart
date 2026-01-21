@@ -49,10 +49,10 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
     return Scaffold(
       appBar: AppBar(title: const Text('Калькулятор'), centerTitle: true),
       body: Padding(
-        padding: const EdgeInsets.all(20.0),
+        padding: const EdgeInsets.all(15),
         child: Column(
           children: [
-            const SizedBox(height: 20),
+            const SizedBox(height: 15),
             
             Row(
               children: [
@@ -73,13 +73,13 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                 ),
               ],
             ),
-            const SizedBox(height: 40),
+            const SizedBox(height: 35),
             
             Text(
               _resultText,
               style: TextStyle(fontSize: 20, color: _resultColor, fontWeight: FontWeight.bold),
             ),
-            const SizedBox(height: 40),
+            const SizedBox(height: 35),
             
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
